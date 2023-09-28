@@ -39,6 +39,10 @@ def mlprojects():
 def cvprojects():
     return render_template('cvproject.html')
 
+@app.route('/daprojects')
+def daprojects():
+    return render_template('daproject.html')
+
 
 if __name__=="__main__":
     app.run(debug=True)
